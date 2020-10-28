@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yoko's Kitchen</title>
+    <style type="text/css">
+        * {
+            color: #6e6969;
+        }
+        body {
+            background-image: url("images/dark-wood.jpg");
+        }
+        div#page {
+            width: 99%;
+        }
+        div#header {
+            margin-top: 2%;
+            text-align: center;
+        }
+        div#header img {
+            width: 90%;
+        }
+        ul {
+            list-style-type: none;
+            background-color: #afaca8;
+            line-height: 1.6em;
+            width: 97%;
+            margin-bottom: 3%;
+            margin-top: -1.3%;
+            word-spacing: 40px;
+        }
+        ul li {
+            display: inline-block;
+            padding : 5px;
+            margin-left :10px;
+        }
+        ul li a {
+            text-decoration: none;
+            font-size: 110%;
+            color : #ffffff;
+            font-weight: bold;
+        }
+        a:hover {
+            color: black;
+        }
+
+        div#main_content {
+            background-color: #ffffff;
+            width: 90%;
+            margin-left: 5%;
+            margin-top: -16px;
+            padding-top: 30px;
+            height: 700px;
+            margin-bottom: 50px;
+        }
+        div#img1{
+            border: 1px solid #d0dede;
+            padding: 5px;
+            width: 290px;
+
+        }
+
+        div#top{
+            width: 800px;
+            height:300px;
+        }
+        div#top div#img1 {
+            float: left;
+            margin-left: 50px;
+            width: 350px;
+        }
+        div#top div#des1 {
+            float: right;
+            width: 350px;
+        }
+        div#top div#des1 p {
+            line-height: 1.4em;
+            text-align: left;
+            font-size: 115%;
+            margin-top: 7%;
+            text-shadow: 0.25px 0.25px #6e6969;
+            word-spacing: 3px;
+
+        }
+        div#top div#des1 h1, h2{
+            margin-top: 10px;
+            margin-bottom: -10px;
+        }
+        div#bot{
+            width: 800px;
+            height: 300px;
+
+        }
+        div#bot div#img2 {
+            border: 1px solid #d0dede;
+            width:350px;
+            padding: 5px;
+            float:left;
+            margin-left: 50px;
+        }
+        div#bot div#des2 {
+            width: 350px;
+            float: right;
+
+        }
+        div#bot div#des2 p {
+            text-align: left;
+            font-size: 115%;
+            line-height: 1.4em;
+            text-shadow: 0.25px 0.25px #6e6969;
+            margin-top: 7%;
+            word-spacing: 3px;
+        }
+        div#bot div#des2 h1, h2 {
+            margin-top: 10px;
+            margin-bottom: -10px;
+            word-spacing: 3px;
+        }
+        div#content {
+            width: 870px;
+            float: left;
+        }
+        div#sideBar {
+            height: 92.5%;
+            width: 330px;
+            border-left: 1px solid #d0dede;
+            padding-left: 25px;
+            float: right;
+            margin-right: 5%;
+        }
+
+        div#content h2 {
+            color: #de6581;
+        }
+        div#sideBar div#popular {
+
+        }
+        div#sideBar div#popular h1, a {
+            color: #de6581;
+            text-decoration: none;
+        }
+        div#popular a {
+            font-size: 110%;
+            text-shadow: 0.25px 0.25px #de6581;
+        }
+        div#popular td {
+            padding: 10px;
+            border-bottom: 1px solid #d0dede;
+        }
+        div#contact{
+            margin-top: 25%;
+        }
+        div#contact h1 {
+            color: #de6581;
+        }
+        div#contact p {
+            line-height: 1.4em;
+            font-size: 105%;
+            text-shadow: 0.25px 0.25px #6e6969;
+        }
+        div#footer {
+            width: 95%;
+            background-color: #6e6969;
+            height: 5%;
+            float: left;
+            padding: 1% 0 0 5%;
+            margin-top: -1%;
+        }
+        div#footer span {
+            color: #ffffff;
+            line-height: 1.4px;
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div id="header">
+            <img src="images/header.jpg" alt="YOKO'S KITCHEN"/>
+        </div>
+
+        <div id="main_content">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">classes</a></li>
+                <li><a href="#">catering</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            <div id="content">
+                <div id="top">
+                    <div id="img1">
+                        <img src="images/bok-choi.jpg" alt="bok choi" width="350"><br>
+                        <span>Bok Choi</span>
+                    </div>
+                    <div id="des1">
+                        <h1>Japanese Vegetarian</h1>
+                        <h2>Five week course in London</h2>
+                        <p>A five week introduction to traditional Japanese vegetarian
+                            meals, teaching you a selection of rice and noodle dishes.</p>
+                    </div>
+                </div>
+                <div id="bot">
+                    <div id="img2">
+                        <img src="images/teriyaki.jpg" alt="teriyaki" width="350"/><br>
+                        <span>Teriyaki Sauce</span>
+                    </div>
+                    <div id="des2">
+                        <h1>Sauces Masterclass</h1>
+                        <h2>One day workshop</h2>
+                        <p>An intensive one-day course looking at how to create the most
+                        delicious sauces for use in a range of Japanese cookery.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="sideBar">
+                <div id="popular">
+                    <h1>Popular Recipes</h1>
+                    <table>
+                        <tr>
+                            <td><a href="#">Yakitori (grilled chicken)</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">(minced chicken patties)</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Okonomiyaki (savory pancakes)</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Mizutaki (chicken stew)</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="contact">
+                    <h1>Contact</h1>
+                    <p>Yoko's Kitchen <br>
+                    27 Redchurch Street <br>
+                    Shoreditch <br>
+                    London E27DP</p>
+                </div>
+            </div>
+            <div id="footer">
+                <span>&copy; 2020 Yoko's Kitchen &copy;</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
