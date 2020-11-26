@@ -1,0 +1,292 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url("https://advsolutions.vn/wp-content/uploads/2019/12/background-powerpoint-cong-nghe-34.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container {
+    margin: 3% auto;
+
+    width: 1291.31px;
+    height: 1771.69px;
+}
+.header #headerImg {
+    width: 450px;
+    height: 80px;
+    z-index: 3;
+    position: relative;
+}
+.header a#name {
+    font-family: fantasy;
+    color: #D8B36E;
+    text-shadow: #0c5460 1px 2px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    top: -60px;
+    left: 40px;
+    z-index: 4;
+
+}
+.header i#subheading {
+    position: relative;
+    top: -59px;
+    left: 80px;
+    z-index: 5;
+    color: #D8B36E;
+    font-family: sans-serif;
+    font-size: 75%;
+}
+.header {
+    margin-left: 15%;
+    height: 90px;
+
+}
+.header .webName {
+    height: 90px;
+    float: left;
+    width: 450px;
+}
+.form-container {
+    width: 400px;
+    float: left;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    text-indent: 20px;
+}
+button {
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+}
+div#body {
+    width: 700px;
+}
+ ul.menu {
+     background-color: #6fa46f;
+    list-style-type: none;
+     width: 100%;
+     margin-top: 1.5%;
+     margin-bottom: -1%;
+     border-radius: 10px 10px 0px 0px;
+}
+ .menu li{
+    display: inline-block;
+    width: 160px;
+    margin-left: 40px;
+     height: 30px;
+     padding-top: 1%;
+     text-align: center;
+}
+ .menu li.active {
+     background-color: #e5aa3a;
+     margin-left: 15%;
+     border-left: 2px solid grey;
+     border-right: 2px solid grey;
+     border-radius: 10px;
+ }
+ .menu li.active a {
+     color: #6fa46f;
+ }
+ .menu li:hover {
+     background-color: #e5aa3a;
+     border-left: 2px solid grey;
+     border-right: 2px solid grey;
+    cursor: pointer;
+     color: #6fa46f;
+     border-radius: 10px;
+ }
+ .menu li a {
+    text-decoration: none;
+     font-family: sans-serif;
+     font-weight: bold;
+     color: white;
+
+}
+ .menu a:hover {
+     color: #6fa46f;
+ }
+ div.content {
+     margin-top: 1%;
+     width: 100%;
+     height: 100%;
+     background-color: #D8B36E;
+     padding-top: 2%;
+ }
+.row figure {
+    float: left;
+    margin: 0.5%;
+    height: 300px;
+    width: 230px;
+    background-color: white;
+}
+.row {
+    height: 320px;
+    margin-left: 3%;
+}
+.row img {
+    width: 220px;
+    height: 220px;
+}
+.row figure:hover {
+    border: 1px solid black;
+    height: 298px;
+    width: 228px;
+}
+.row1 figure {
+    float: left;
+    margin: 7px 7px 0px 7px;
+    width: 210px;
+    height: 300px;
+    background-color: white;
+}
+#frame{
+    width: 1140px;
+    height: 310px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+
+}
+.slide{
+    background-color: #bf8a2a;
+    width: 2000px;
+    height: 310px;
+    position: relative;
+}
+#row2 {
+    height: 310px;
+    margin-left: 3%;
+}
+#row2 figure {
+    float: left;
+    margin: 0.5%;
+    width: 230px;
+    height: 300px;
+    background-color: white;
+}
+#row2 figure:hover {
+    width: 228px;
+    height: 298px;
+    border: 1px solid black;
+}
+#row2 img {
+    width: 230px;
+    height: 230px;
+}
+.row1 {
+    width: 100%;
+    margin-top: 1%;
+    height: 310px;
+    position: relative;
+    background-color: #D8B36E;
+}
+.row figcaption {
+    width: 100%;
+    margin-top: -2%;
+}
+#row2 figcaption{
+    width: 100%;
+    margin-top: -2%;
+}
+.row1 img {
+    width: 210px;
+    height: 210px;
+}
+#row2 figure:hover{
+    border: 1px solid black;
+}
+.row1 figure:hover {
+    border: 1px solid black;
+}
+div.arrow {
+    float: left;
+}
+#left {
+    margin-left: 1.5%;
+}
+div.arrow figure {
+    width: 40px;
+    height: 300px;
+    border: none;
+    background-color: #cbc5c5;
+
+}
+div.arrow figure:hover {
+    cursor: pointer;
+    border: none;
+
+}
+div.arrow figure img {
+    margin-top: 110px;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.para {
+    position: relative;
+    color: #f30a38;
+    padding-top: 1%;
+    text-shadow: 1px 1px brown;
+    margin: 1%;
+}
+.first-text {
+    color: #f10404;
+    text-shadow: 1px 1px brown;
+    margin-left: 1%;
+}
+h2 {
+    color: red;
+    font-weight: bold;
+    font-family: fantasy;
+    text-shadow: 1px 1px white;
+    padding-left: 25%;
+}
+p {
+    font-style: italic;
+    padding-left: 5%;
+}
+div.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #D8B36E;
+    padding-top: 3%;
+    border-radius: 0px 0px 10px 10px;
+}
+div.footer div {
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+div.footer ul {
+    list-style-type: none;
+}
+div.footer li {
+    margin: 2%;
+}
+div.footer div a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+div.footer div a:hover {
+    color: white;
+    font-size: 17px;
+}
+div.footer div h3 {
+    font-family: sans-serif;
+    color: red;
+    margin-left: 2%;
+}
